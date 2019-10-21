@@ -26,6 +26,8 @@ else:
     pv=2  # Python2
     import urllib2
 
+# User specific settings are stored in this config file
+config_file = 'config_met'
 
 def get_names_and_urls(name, opt):
     fnames = []
